@@ -1,5 +1,14 @@
+import brandLogo from "./extensions/logo.svg";
+import favicon from "./extensions/favicon.ico";
+
 export default {
   config: {
+    auth: {
+      logo: brandLogo
+    },
+    head: {
+      favicon: favicon,
+    },
     locales: [
       // 'ar',
       'fr',
@@ -28,6 +37,9 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    menu: {
+      logo: brandLogo
+    }
   },
   bootstrap(app) {
     console.log(app);
