@@ -23,7 +23,14 @@ docker compose up
 #### Adminer GUI
 
 Manage your local database with a graphical interface
-Go to [http://localhost:9090/](http://localhost:9090/)
+
+[Open Adminer GUI](http://localhost:9090/)
+
+#### GraphQL Playground
+
+GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration).
+
+[Open GraphQL Playground](http://localhost:1337/graphql)
 
 ### `start`
 
