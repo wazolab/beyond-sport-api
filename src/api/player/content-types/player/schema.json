@@ -26,10 +26,16 @@
       "type": "integer",
       "max": 300
     },
-    "club": {
+    "admin_user": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::club.club"
+      "target": "admin::user"
+    },
+    "club": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::club.club",
+      "inversedBy": "players"
     }
   }
 }
