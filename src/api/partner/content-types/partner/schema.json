@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "Partner"
+    "displayName": "Partner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +16,10 @@
     }
   },
   "attributes": {
-    "admin_user": {
+    "users_permissions_user": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "admin::user"
+      "target": "plugin::users-permissions.user"
     },
     "club": {
       "type": "relation",
