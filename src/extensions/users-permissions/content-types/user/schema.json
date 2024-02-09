@@ -64,6 +64,10 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^\\+(?:[0-9] ?){6,14}[0-9]$"
     }
   }
 }
